@@ -1,1 +1,9 @@
 C:\Users\as600\Documents\GitHub\WeekThreeDemoTwo\WeekThreeDemoTwo\bin\Debug\WeekThreeDemoTwo.exe.config
+C:\Users\as600\Documents\GitHub\WeekThreeDemoTwo\WeekThreeDemoTwo\bin\Debug\WeekThreeDemoTwo.exe
+C:\Users\as600\Documents\GitHub\WeekThreeDemoTwo\WeekThreeDemoTwo\bin\Debug\WeekThreeDemoTwo.pdb
+C:\Users\as600\Documents\GitHub\WeekThreeDemoTwo\WeekThreeDemoTwo\obj\Debug\WeekThreeDemoTwo.csprojResolveAssemblyReference.cache
+C:\Users\as600\Documents\GitHub\WeekThreeDemoTwo\WeekThreeDemoTwo\obj\Debug\WeekThreeDemoTwo.Form1.resources
+C:\Users\as600\Documents\GitHub\WeekThreeDemoTwo\WeekThreeDemoTwo\obj\Debug\WeekThreeDemoTwo.Properties.Resources.resources
+C:\Users\as600\Documents\GitHub\WeekThreeDemoTwo\WeekThreeDemoTwo\obj\Debug\WeekThreeDemoTwo.csproj.GenerateResource.Cache
+C:\Users\as600\Documents\GitHub\WeekThreeDemoTwo\WeekThreeDemoTwo\obj\Debug\WeekThreeDemoTwo.exe
+C:\Users\as600\Documents\GitHub\WeekThreeDemoTwo\WeekThreeDemoTwo\obj\Debug\WeekThreeDemoTwo.pdb
