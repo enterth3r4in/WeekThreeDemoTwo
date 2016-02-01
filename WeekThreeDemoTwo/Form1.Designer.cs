@@ -46,6 +46,7 @@
             this.tbProductWeight = new System.Windows.Forms.TextBox();
             this.btnExitProgram = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // tbCustomerID
@@ -101,16 +102,16 @@
             // 
             // tbOrderSummary
             // 
-            this.tbOrderSummary.Location = new System.Drawing.Point(16, 243);
+            this.tbOrderSummary.Location = new System.Drawing.Point(16, 257);
             this.tbOrderSummary.Multiline = true;
             this.tbOrderSummary.Name = "tbOrderSummary";
-            this.tbOrderSummary.Size = new System.Drawing.Size(465, 279);
+            this.tbOrderSummary.Size = new System.Drawing.Size(465, 265);
             this.tbOrderSummary.TabIndex = 10;
             // 
             // btnOrderSummary
             // 
             this.btnOrderSummary.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOrderSummary.Location = new System.Drawing.Point(56, 170);
+            this.btnOrderSummary.Location = new System.Drawing.Point(60, 198);
             this.btnOrderSummary.Name = "btnOrderSummary";
             this.btnOrderSummary.Size = new System.Drawing.Size(104, 53);
             this.btnOrderSummary.TabIndex = 7;
@@ -189,7 +190,7 @@
             // btnExitProgram
             // 
             this.btnExitProgram.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExitProgram.Location = new System.Drawing.Point(332, 170);
+            this.btnExitProgram.Location = new System.Drawing.Point(341, 198);
             this.btnExitProgram.Name = "btnExitProgram";
             this.btnExitProgram.Size = new System.Drawing.Size(104, 53);
             this.btnExitProgram.TabIndex = 9;
@@ -200,7 +201,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(196, 170);
+            this.button1.Location = new System.Drawing.Point(202, 198);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(104, 53);
             this.button1.TabIndex = 8;
@@ -208,11 +209,22 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(76, 175);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(348, 20);
+            this.label1.TabIndex = 16;
+            this.label1.Text = "Current Shipping Cost Per Pound: $0.89/lb";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(498, 534);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnExitProgram);
             this.Controls.Add(this.tbProductWeight);
@@ -260,6 +272,7 @@
         private System.Windows.Forms.TextBox tbProductWeight;
         private System.Windows.Forms.Button btnExitProgram;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label1;
     }
 }
 
